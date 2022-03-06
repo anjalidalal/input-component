@@ -1,0 +1,155 @@
+* {
+  margin: 0%;
+}
+body {
+  box-sizing: border-box;
+  font-family: Noto Sans JP;
+}
+.main {
+  display: flex;
+  gap: 10px;
+}
+/* left part */
+.left {
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.left > p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #9e9e9e;
+}
+/* right part */
+.right > h1 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #4f4f4f;
+}
+input {
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 9px;
+  font-weight: 500;
+}
+/* first input section */
+.input-1 {
+  border: 1px solid #828282;
+}
+.input-2 {
+  border: 1px solid #333333;
+}
+.input-3 {
+  border: 1px solid #2962ff;
+}
+.first > div > p,
+.second > div > p,
+.third > p,
+.four > div > p,
+.five > div > p,
+.six > p,
+.seven > div > p,
+.eight > p,
+.nine > p{
+  font-family: Ubuntu Mono;
+  font-size: 8px;
+  line-height: 14px;
+}
+.first,
+.second{
+  display: flex;
+  gap: 7px;
+  margin-top: 20px;
+}
+/* second input section */
+.input-4 {
+  border: 1px solid #d32f2f;
+}
+.input-5 {
+  border: 1px solid #333333;
+}
+.input-6 {
+  border: 1px solid #d32f2f;
+}
+/* third input section */
+.third {
+  margin-top: 20px;
+}
+.input-7 {
+  background: #f2f2f2;
+  border: 1px solid #e0e0e0;
+}
+/* four input section */
+.four {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+.input-8 {
+  border: 1px solid #828282;
+}
+.input-9 {
+  border: 1px solid #d32f2f;
+}
+/* five input section */
+.five {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+.input-10,
+.input-11 {
+  width: 65px;
+  height: 25px;
+  border-radius: 4px;
+  font-size: 8px;
+  border: 1px solid #828282;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+img {
+  width: 11px;
+  height: 11px;
+}
+/* six input section */
+.six {
+  margin-top: 20px;
+}
+.input-12 {
+  border: 1px solid #828282;
+}
+
+/* seven input section */
+.seven{
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+.input-13,
+.input-14{
+  border: 1px solid #828282;
+}
+/* eight input section */
+.eight {
+  margin-top: 20px;
+}
+.input-15{
+  border: 1px solid #828282;
+  width: 190px;
+}
+/* nine input section */
+.nine {
+  margin-top: 20px;
+}
+.input-16{
+  border: 1px solid #828282;
+  width: 60px;
+  height: 53px;
+}
