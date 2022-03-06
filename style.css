@@ -223,6 +223,7 @@ img {
     font-size: 13px;
     border: 1px solid #828282;
     display: flex;
+    font-family: Poppins;
     font-weight: 500;
     color: #828282;
     gap: 8px;
@@ -253,8 +254,11 @@ img {
   /* nine input section */
   .input-16 {
     border: 1px solid #828282;
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 110px;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Poppins;
   }
   
 }
