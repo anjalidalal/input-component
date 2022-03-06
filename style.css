@@ -4,6 +4,7 @@
 body {
   box-sizing: border-box;
   font-family: Noto Sans JP;
+  padding: 10px;
 }
 .main {
   display: flex;
@@ -56,13 +57,14 @@ input {
 .six > p,
 .seven > div > p,
 .eight > p,
-.nine > p{
+.nine > p {
   font-family: Ubuntu Mono;
   font-size: 8px;
   line-height: 14px;
+  padding: 3px 0px;
 }
 .first,
-.second{
+.second {
   display: flex;
   gap: 7px;
   margin-top: 20px;
@@ -127,20 +129,20 @@ img {
 }
 
 /* seven input section */
-.seven{
+.seven {
   display: flex;
   gap: 60px;
   margin-top: 20px;
 }
 .input-13,
-.input-14{
+.input-14 {
   border: 1px solid #828282;
 }
 /* eight input section */
 .eight {
   margin-top: 20px;
 }
-.input-15{
+.input-15 {
   border: 1px solid #828282;
   width: 190px;
 }
@@ -148,8 +150,111 @@ img {
 .nine {
   margin-top: 20px;
 }
-.input-16{
+.input-16 {
   border: 1px solid #828282;
   width: 60px;
   height: 53px;
+}
+
+/* <!--Laptop screen --> */
+@media (min-width: 768px) {
+  .main {
+    display: flex;
+    gap: 40px;
+  }
+  /* left part */
+  .left {
+    margin-top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .left > p {
+    font-size: 20px;
+  }
+  /* right part */
+  .right > h1 {
+    font-size: 25px;
+  }
+  input {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 0px 5px;
+  }
+  /* first input section */
+  .first > div > p,
+  .second > div > p,
+  .third > p,
+  .four > div > p,
+  .five > div > p,
+  .six > p,
+  .seven > div > p,
+  .eight > p,
+  .nine > p {
+    font-size: 12px;
+    padding: 5px 0px;
+  }
+  .first,
+  .second {
+    display: flex;
+    gap: 55px;
+    margin-top: 45px;
+  }
+  /* four input section */
+  .four {
+    margin-top: 45px;
+    display: flex;
+    gap: 155px;
+  }
+  /* five input section */
+  .five {
+    display: flex;
+    gap: 50px;
+    margin-top: 45px;
+  }
+  .input-10,
+  .input-11 {
+    width: 123px;
+    height: 43px;
+    border-radius: 8px;
+    font-size: 13px;
+    border: 1px solid #828282;
+    display: flex;
+    font-weight: 500;
+    color: #828282;
+    gap: 8px;
+    padding: 0px 5px;
+    align-items: center;
+  }
+  img {
+    width: 15px;
+    height: 15px;
+  }
+  /* six input section */
+  .six,
+  .eight,
+  .nine,
+  .third {
+    margin-top: 45px;
+  }
+  /* seven input section */
+  .seven {
+    display: flex;
+    gap: 60px;
+    margin-top: 45px;
+  }
+  /* eight input section */
+  .input-15 {
+    width: 525px;
+  }
+  /* nine input section */
+  .input-16 {
+    border: 1px solid #828282;
+    width: 120px;
+    height: 100px;
+  }
+  
 }
